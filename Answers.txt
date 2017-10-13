@@ -1,0 +1,51 @@
+1. Log "Hello World!" to the console.
+console.log("Hello World!");
+
+
+2. Save an integer in a variable and then log it to the console.
+var x = 4;
+console.log(x);
+
+3. Save a string in a variable and then log the type of that variable.
+var x = "Random string";
+console.log(type(x));
+
+4. Make a pop up appear with the text "Hello World!".
+alert(Hello World!");
+
+Objects
+
+Open the tab "Elements" in the developer toolkit and find a prewritten variable.
+
+5. Log this variable.
+console.log(movie);
+
+6. Log the type of this variable.
+console.log(type(movie));
+
+7. Log the name of the movie, by indexing into the object.
+console.log(movie.name);
+
+8. Make the object log its own release date.
+movie.spitReleaseDate();
+
+DOM/JQuery
+
+9. Use JQuery to push "Hello World!" to the div with the id of "pushText".
+$("#pushText").html("Hello World!");
+
+10. Use JQuery to add your names to the text "Our names are: ".
+$("#editText").append("NAMES");
+$("#editText").html("Our names are: NAMES");
+
+11. Use JQuery to change the color of "This text is blue" to blue.
+$("#textColor").css("color", "blue");
+
+12. Use JQuery to change to color of the rectangle to orange.
+$("#rectColor").css("background", "orange");
+
+13. Push the responseText of "data.json" to the div with the id "pushData".
+var json = $.getJSON("data.json"); $("#pushData").html(json.responseText);
+
+14. Parse the responseText to a JSON, and save this in a variable. Then push one of the values to the div with the id "jsonValue".
+var json = $.getJSON("data.json"); var jsonParsed = $.parseJSON(json.responseText); $("#jsonValue").html(jsonParsed.name);

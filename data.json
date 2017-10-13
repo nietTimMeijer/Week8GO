@@ -1,0 +1,9 @@
+{
+	"name": "Tim Meijer",
+	"subjects": ["Prog1", "Prog2", "DataProcessing", "Project"],
+	"coffee": {
+		"strength": 4,
+		"sugar": false,
+		"milk": false
+	}
+}

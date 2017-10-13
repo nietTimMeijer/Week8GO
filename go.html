@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>GO week 8</title>
+		<script src="jquery-3.2.1.min.js"></script>
+	</head>
+	<body>
+		<div id="pushText"></div>
+		<div id="editText">Our names are: </div>
+		<div id="textColor">This text is blue</div>
+		<div id="rectColor" style="width:300px; height:100px; background: green"></div>
+		<div id="pushData"></div>
+		<div id="jsonValue"></div>
+		<script>
+			var movie = {name: "Sharknado 5: Global Swarming", 
+				director: "Anthony C. Ferrante",
+				runtime: 90,
+				genres: ["Horror", "Sci-Fi"],
+				releaseDate: "6 August 2017",
+				spitReleaseData: function() {
+					console.log(this.releaseDate);
+				}
+			}
+		</script>
+	</body>
+</html>
